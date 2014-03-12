@@ -1,0 +1,4 @@
+sprangulator
+============
+
+Computer chess program
