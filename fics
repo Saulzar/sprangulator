@@ -1,0 +1,1 @@
+xboard -zp -ics -icshost 69.36.243.188 -autoflag -fcp ./sprangulator -icshelper ./timeseal -zippyPassword blargh -xmovesound -xautoraise -debug  -xrm '*zippyGameEnd: seek 1 0\nseek 3 0\nseek 15 0\nresume\n' -xalarm -soundMove "" -internetChessServerLogonScript startup -sgf games.pgn -size bulky

@@ -1,0 +1,1 @@
+xboard -fcp ./sprangulator -scp ./sprangulator -debug -tc 5:5 -inc 0

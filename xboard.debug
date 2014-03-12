@@ -1,0 +1,164 @@
+locale = en_NZ.UTF-8
+recognized 'normal' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+shuffleOpenings = 0
+Requested font set for list -adobe-helvetica-medium-r-normal--14-140-75-75-p-77-iso8859-1
+ got list -adobe-helvetica-medium-r-normal--14-140-75-75-p-77-iso8859-1, locale en_NZ.UTF-8
+ got charset -adobe-helvetica-medium-r-normal--14-140-75-75-p-77-iso8859-1
+ got charset -adobe-helvetica-medium-r-normal--14-140-75-75-p-77-iso8859-1
+ missing charset ISO8859-2
+ missing charset ISO8859-3
+ missing charset ISO8859-4
+ missing charset ISO8859-5
+ missing charset KOI8-R
+ missing charset ISO8859-7
+ missing charset ISO8859-9
+ missing charset ISO8859-13
+ missing charset ISO8859-14
+ missing charset ISO8859-15
+ missing charset JISX0208.1983-0
+ missing charset KSC5601.1987-0
+ missing charset GB2312.1980-0
+ missing charset JISX0201.1976-0
+ missing charset ISO10646-1
+Requested font set for list -adobe-helvetica-bold-r-normal--34-0-75-75-p-0-iso10646-1
+ got list -adobe-helvetica-bold-r-normal--34-0-75-75-p-0-iso10646-1, locale en_NZ.UTF-8
+ got charset -adobe-helvetica-bold-r-normal--34-0-75-75-p-0-iso10646-1
+ missing charset ISO8859-1
+ missing charset ISO8859-1
+ missing charset ISO8859-2
+ missing charset ISO8859-3
+ missing charset ISO8859-4
+ missing charset ISO8859-5
+ missing charset KOI8-R
+ missing charset ISO8859-7
+ missing charset ISO8859-9
+ missing charset ISO8859-13
+ missing charset ISO8859-14
+ missing charset ISO8859-15
+ missing charset JISX0208.1983-0
+ missing charset KSC5601.1987-0
+ missing charset GB2312.1980-0
+ missing charset JISX0201.1976-0
+Requested font set for list -adobe-helvetica-bold-r-normal--12-120-75-75-p-70-iso8859-1
+ got list -adobe-helvetica-bold-r-normal--12-120-75-75-p-70-iso8859-1, locale en_NZ.UTF-8
+ got charset -adobe-helvetica-bold-r-normal--12-120-75-75-p-70-iso8859-1
+ got charset -adobe-helvetica-bold-r-normal--12-120-75-75-p-70-iso8859-1
+ missing charset ISO8859-2
+ missing charset ISO8859-3
+ missing charset ISO8859-4
+ missing charset ISO8859-5
+ missing charset KOI8-R
+ missing charset ISO8859-7
+ missing charset ISO8859-9
+ missing charset ISO8859-13
+ missing charset ISO8859-14
+ missing charset ISO8859-15
+ missing charset JISX0208.1983-0
+ missing charset KSC5601.1987-0
+ missing charset GB2312.1980-0
+ missing charset JISX0201.1976-0
+ missing charset ISO10646-1
+xboard 4.6.2 + sprangulator
+Reset(1, 0) from gameMode 0
+recognized 'normal' (-1) as variant normal
+GameEnds(0, (null), 2)
+shuffleOpenings = 0
+StartChildProcess (dir=".") ./sprangulator
+719 >first : xboard
+protover 2
+shuffleOpenings = 0
+881 <first : Hash table created of size 128Mb
+948 <first : command>
+948 <first : feature myname="The Sprangulator -0.01" name=1
+948 >first : accepted myname
+948 >first : accepted name
+948 <first : feature ping=1 playother=1 san=1 setboard=1 usermove=1
+948 >first : accepted ping
+948 >first : accepted playother
+948 >first : accepted san
+948 >first : accepted setboard
+948 >first : accepted usermove
+948 <first : feature time=1 draw=1 reuse= 1 analyze=0 colors=0 pause=0
+948 >first : accepted time
+948 >first : accepted draw
+948 >first : accepted reuse
+948 >first : rejected 1 analyze
+948 >first : accepted colors
+948 >first : accepted pause
+948 <first : feature sigint=0 sigterm=0
+948 >first : accepted sigint
+948 >first : accepted sigterm
+948 <first : feature done=1
+948 >first : accepted done
+949 >first : new
+random
+949 >first : level 0 5:05 0
+949 >first : post
+949 >first : hard
+949 >first : ping 1
+949 <first : Mode change
+949 <first : Mode ponder
+949 <first : Pondering
+950 <first : Calling reset
+950 <first : Ponder done
+950 <first : Finish mode change
+950 <first : Mode change
+950 <first : Mode wait
+950 <first : Finish mode change
+964 <first : Error (unknown command): random
+964 <first : Error (unknown command): post
+964 <first : Error (unknown command): hard
+964 <first : pong 1
+nps: w=-1, b=-1
+5051 >first : name oliver
+nps: w=-1, b=-1
+5052 >first : time 30500
+5052 >first : otim 30500
+book hit = (NULL)
+5052 >first : usermove 5052 >first : d4
+5124 <first : Error (unknown command): name oliver
+5124 <first : User move
+5124 <first : Mode change
+5124 <first : Mode play
+5124 <first : Start search
+5124 <first : Updated board
+12893 <first : tellothers Score -0.38, Depth 8, Nodes 21530k, Hash hits 7.09053%, Nps 2751k; d5 Bf4 Nc6 Nf3 Bf5 e3 e5 Nxe5 Be7 
+12893 <first : move d5
+12965 <first : Finished search
+12965 <first : Finish mode change
+12965 <first : Mode change
+12965 <first : Mode ponder
+12965 <first : Pondering
+15339 >first : time 29715
+15339 >first : otim 30255
+book hit = (NULL)
+15339 >first : usermove 15339 >first : c4
+15411 <first : User move
+15411 <first : Ponder done
+15411 <first : Finish mode change
+15411 <first : Mode change
+15411 <first : Mode play
+15411 <first : Start search
+22986 <first : tellothers Score 0.04, Depth 8, Nodes 20497k, Hash hits 8.6696%, Nps 2682k; Bf4 Nc6 Nf3 Bf5 c4 e5 dxe5 dxc4 Nc3 
+22986 <first : move Bf4
+ 25 23 24 26 43 24 23 25
+ 22 22 22 44 22 22 22 22
+ 44 44 44 44 44 44 44 44
+ 44 44 44 22 44 44 44 44
+ 44 44  0  0 44 44 44 44
+ 44 44 44 44 44 44 44 44
+  0  0 44 44  0  0  0  0
+  3  1  2  4 21  2  1  3
+Impossible move a1f1ÿ, type = 24
+22987 <first : Finished search
+22987 <first : Finish mode change
+22987 <first : Mode change
+22987 <first : Mode ponder
+22987 <first : Pondering
+GameEnds(28, xboard exit, 2)
+41732 >first : result * {xboard exit}
+41732 >first : force
+41732 >first : ping 2
+41732 >first : quit
